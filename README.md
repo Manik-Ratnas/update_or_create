@@ -1,7 +1,8 @@
 # UpdateOrCreate
 
+[![Gem Version](https://badge.fury.io/rb/update_or_create.png)](http://badge.fury.io/rb/update_or_create)
 
-This gem gives ActiveRecord a method called as update_or_create_by which can be used along with a block to update or create by the arguments passed. 
+This gem gives ActiveRecord a method called as update_or_create_by which can be used along with a block, to update or create by, the arguments passed. 
 
 ## Installation
 
@@ -36,7 +37,7 @@ You can also use User.update_or_create_by_first_name_and_last_name("Manish","Pur
 
 ## Contributing
 
-1. Fork it ( http://github.com/manishspuri/update_or_create/fork )
+1. Fork it ( http://github.com/Manik-Ratnas/update_or_create/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
