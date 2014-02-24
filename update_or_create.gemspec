@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'update_or_create/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "update_or_create"
-  spec.version       = 0.0.1
+  spec.version       =  '0.0.1'
   spec.authors       = ["Manish Puri"]
   spec.email         = ["manishspuri@gmail.com"]
   spec.summary       = %q{This gem defines the update_or_create method for activerecord objects}
